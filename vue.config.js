@@ -60,10 +60,10 @@ module.exports = {
     port: 8080,
     open: false, // 自动启动浏览器
     proxy: {// 可以配置多个代理
-      '/api': {
+      '/exam': {
         ws: true,
         changeOrigin: true,
-        target: '<url>', // target host
+        target: 'http://127.0.0.1:8989', // target host
         hotOnly: false,
         before: app => {}
       },
