@@ -24,7 +24,8 @@ export default {
   methods: {
     post () {
       this.$postJSON('/exam/login', { userName: '1', passWord: '1' })
-        .then(data => {})
+        .then(data => {
+        })
     }
   },
   name: 'home',

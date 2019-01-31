@@ -29,7 +29,7 @@ Vue.prototype.$postText = postText
 Vue.prototype.$getText = getText
 // 封装的src处理函数
 Vue.prototype.$handleSrc = handleSrc
-
+// 新的实例对象，并注入router和store，挂载在#app组件上
 Vue.prototype._vue = new Vue({
   store,
   router,
